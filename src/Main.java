@@ -1,6 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
+        int cost = 13676;
+        int mile = 20;
+
+        int bonus = cost / mile;
+
+        System.out.println(bonus);
+
+
         // Объявляете переменные для входных данных и
         // параметров программы: одну для хранения
         // стоимости билета, другую для хранения количества
